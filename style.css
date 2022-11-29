@@ -1,0 +1,74 @@
+body{
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+
+}
+.text-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.billboard-banner{
+    height: 350px;
+    width: 1fr;
+    background-image: url(/images/udemy\ bckg\ img.jpg);
+}
+
+.cyber-sale{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 32px;
+}
+.billboard-banner-content{
+    position: absolute;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem;
+    width: 25rem;
+    left: 4.8rem;
+    top: 5.4rem;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    
+}
+
+.courses-list{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.value-props{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.logo-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-partners{
+    text-align: center;
+}
+
+/* .udemy-business{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.instructor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
